@@ -1,0 +1,167 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "jaf-facitweb", "Helvetica Neue", Arial, sans-serif;
+  color: #4d4d4d;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.44em;
+}
+
+body {
+  background-color: #f9fafc;
+  font-family:
+    "-apple-system", BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+a,
+a:link,
+a:active,
+a:visited {
+  text-decoration: none;
+}
+
+footer {
+  font-size: 0.8em;
+  margin: 4em 1em;
+  text-align: center;
+}
+
+/* INPUTS */
+textarea,
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+  background: #edeff0;
+  border-radius: 4px;
+  border: 1px solid #cdd2d4;
+  padding: 0.5em;
+  max-width: 400px;
+  width: 100%;
+}
+
+textarea:focus,
+input:focus {
+  border-color: #a5acb0;
+  outline: none;
+  box-shadow: 0 0 6px #cdd2d4;
+}
+
+textarea,
+input {
+  margin: 0 0 1.2em;
+}
+
+/* HEADER */
+header.trello-brand > .trello-logo img {
+  display: block;
+  width: 400px; /* 🔥 aumenta aqui */
+  height: auto;
+  margin: 40px auto;
+}
+s
+
+/* SECTION */
+.section-wrapper {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.section-wrapper > .account-form {
+  background-color: #ffffff;
+  border-radius: 3px;
+  padding: 25px 40px;
+  box-shadow: rgb(0 0 0 / 10%) 0 0 10px;
+}
+
+.account-title {
+  text-align: center;
+  color: #5e6c84;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+/* FORM */
+.account-form input {
+  width: 100%;
+  height: 44px;
+  border: 2px solid #dfe1e6;
+  border-radius: 3px;
+  margin-bottom: 12px;
+}
+
+.account-form input:focus {
+  border: 2px solid #4c9aff;
+}
+
+.account-form input[type="submit"] {
+  background: linear-gradient(to bottom, #61bd4f, #5aac44);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* BOTÕES */
+.oauth-button {
+  width: 100%;
+  height: 39px;
+  margin-bottom: 12px;
+  border-radius: 3px;
+  background: #fff;
+  box-shadow: rgb(0 0 0 / 20%) 1px 1px 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.oauth-button img {
+  width: 18px;
+}
+
+.oauth-button span {
+  font-weight: bold;
+  color: #505f79;
+}
+
+/* ✅ FOOTER CORRIGIDO */
+.global-footer {
+  display: flex;
+  align-items: center; /* mesma altura */
+  justify-content: space-between; /* esquerda e direita */
+  margin-top: 40px;
+  padding: 0 40px;
+}
+
+/* imagens */
+.interactive-logo {
+  width: 500px;
+  margin-top: -500px;
+}
+
+.analytics-logo {
+  width: 500px;
+  margin-top: -500px;
+}
+
+.login-separator {
+  display: block;
+  text-align: center; /* 🔥 centraliza o texto */
+  width: 100%; /* ocupa toda largura */
+  margin: 9x 0; /* espaço em cima e embaixo */
+  font-size: 14px;
+}
